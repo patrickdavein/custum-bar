@@ -31,4 +31,24 @@ body {
     animation: loading 5s linear infinite;
 }
 
+@keyframes loading {
+    0% {
+        transform: scale(1) rotate(360deg);
+    }
+
+    50% {
+        transform: scale(.5) rotate(-360deg);
+        border-top-color: rgb(0, 255, 106);
+        border-bottom-color: rgb(9, 221, 37);
+    }
+
+    100% {
+        transform: scale(1) rotate(360deg);
+    }
+}
+
+
+
+
+
 
